@@ -204,6 +204,30 @@ footer {
     font-weight: bold;
 }
 
+.next-field{
+    width: 100%;
+    display: none;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.next-field.active{
+    display: flex;
+}
+
+.next-field button{
+    width: 150px;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: #00c9c8;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+
+}
+
 /* RESPONSIVO */
 @media (max-width: 450px) {
     #quizz-container,
